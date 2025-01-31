@@ -26,11 +26,25 @@
   <!-- font awesome setup -->
   <script src="https://kit.fontawesome.com/bf0824ebc6.js" crossorigin="anonymous"></script>
 
+  <!-- <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'yellow': 'rgba(250, 243, 53, 1)',
+            'red': 'rgba(252, 18, 18, 1)'
+          }
+        }
+      }
+    }
+  </script> -->
+
 </head>
 <body class="sora-font">
 
-  <header>
-    <!-- Navbar -->
+  <header>   
+    <!-- Navbar section-->
       <section class="lg:flex justify-around py-5 border border-green-500 lg:border-hidden px-5">
         <div class="flex justify-between items-center">
           <img src="./c2-assets/logo-header.png" alt=""> 
@@ -57,7 +71,19 @@
           </div>
         </div>
       </section> 
-      
+
+    <!-- banner section -->
+      <section class="lg:w-2/3 mx-auto lg:text-center space-y-5 my-20">
+        <!-- text -->
+         <div class="w-11/12 text-center mx-auto">
+          <h1 class="text-5xl font-semibold">Freshness <span class="text-[#179800]">You Can <br>
+            Count</span> On, Prices You’ll Love!</h1>
+            <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+         </div>
+        <!-- Image -->
+         <img src="./c2-assets/hero-vegetables.png" alt="" class="w-full">
+      </section>
+
   </header>
 
   <main>
